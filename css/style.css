@@ -1,0 +1,160 @@
+#navbar {
+    opacity: 0.95;
+}
+#nav .nav-item {
+    padding: 10px 0;
+}
+@media (min-width: 768px) {
+    #nav {
+        border-top: 0;
+        margin-top: 0;
+    }
+}
+.yellow-btn {
+    background-color: #ffe422;
+}
+a {
+    color: #303030;
+    font-size: 14px;
+    text-align: center;
+}
+#my-zarin {
+    background-color: rgba(232, 239, 254, 0.6);
+    padding: 10px 27px;
+    color: #28457b !important;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+#my-zarin:hover {
+    background: rgba(228, 197, 0, 0.15);
+}
+
+#creat-accont {
+    background-color: #ffe422;
+    border-radius: 10px;
+}
+
+#sign-in {
+    color: #fff !important;
+    background: #435a8a 0 0 no-repeat padding-box;
+    border-radius: 10px;
+}
+#first-main {
+    background-image: linear-gradient(135deg, #21254e, #2b4a83);
+    border-radius: 20px;
+    margin-top: 80px;
+}
+#btnGoDown {
+    background: url(https://www.zarinpal.com/assets/images/arrowbottom.svg?6588af1e1354de9198542e58bf5e3224) no-repeat
+        50%;
+    background-size: auto;
+    background-size: 100%;
+    margin: -40px auto;
+    border: 0;
+    position: relative;
+    text-align: center;
+    width: 164px;
+    height: 78px;
+    top: 2px;
+}
+.main-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.textBold {
+    font-weight: bold;
+}
+
+.img-icon {
+    padding: 10px;
+    background-color: rgb(245, 245, 253);
+    border-radius: 16px;
+}
+
+@media (min-width: 768px) {
+    #box1 {
+        border-left: 0.1px rgba(128, 128, 128, 0.514) solid;
+        border-bottom: 0.1px rgba(128, 128, 128, 0.514) solid;
+        padding: 0 32px;
+    }
+    #box2 {
+        border-bottom: 0.1px rgba(128, 128, 128, 0.514) solid;
+        padding: 0 32px;
+    }
+    #box3 {
+        border-left: 0.1px rgba(128, 128, 128, 0.514) solid;
+        padding: 0 32px;
+    }
+    #box4 {
+        padding: 0 32px;
+    }
+}
+#wellCome {
+    margin-top: 60px;
+    border: 0.1px rgba(128, 128, 128, 0.514) solid;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#wellCome p {
+    font-size: 24px;
+}
+#wellCome button {
+    width: 200px;
+}
+#support{
+    margin-top: 32px;
+    background: #fbf6f1;
+    border-radius: 35px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 0 16px;
+}
+#support a {
+    text-decoration: none;
+    font-size: 20px;
+}
+#support p {
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+
+}
+ul li{
+    list-style: none;
+}
+
+.social-media{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.social-media i{
+
+    margin-right: 4px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(245, 245, 253);
+    padding: 10px ;
+
+}
+footer li{
+    font-size: 18px;
+}
+
+footer li a{
+    font-size: 18px;
+}
